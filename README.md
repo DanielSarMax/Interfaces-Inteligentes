@@ -28,3 +28,5 @@ El proyecto consiste en la creación de una escena 3D básica utilizando exclusi
 
 7. **Script para la consola:**
    - Se creó un script personalizado en C# que utiliza la clase `Transform` para obtener y escribir en la consola las posiciones de los objetos en la escena. La propiedad `Transform.position` permite acceder a la posición en el espacio 3D de cada objeto
+
+![Ejecucion](sample2.gif)
