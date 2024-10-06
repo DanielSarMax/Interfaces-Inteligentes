@@ -30,4 +30,8 @@ https://github.com/user-attachments/assets/47b844ea-0cab-465b-8790-70c40f40ba34
 
 https://github.com/user-attachments/assets/3dba7711-a18f-4fec-bcf6-4721bba4cbb1
 
-5. 
+5. Script `DistanceToSphere`. Hemos asignado el tag `Sphere` a la esfera de la escena y hemos obtenido una referencia al mismo. Posteriormente, se ha usado el método Distance que nos permite calcular la distancia entre dos vectores. Finalmente, hemos mostrado el resultado de ambas operaciones por consola.
+
+https://github.com/user-attachments/assets/de86f392-0dbb-4ad8-af94-6bd14fa4deec
+
+6. 
