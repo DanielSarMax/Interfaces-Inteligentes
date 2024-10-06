@@ -34,4 +34,8 @@ https://github.com/user-attachments/assets/3dba7711-a18f-4fec-bcf6-4721bba4cbb1
 
 https://github.com/user-attachments/assets/de86f392-0dbb-4ad8-af94-6bd14fa4deec
 
-6. 
+6. Script `SpaceToChangePosition`. El método Start inicializa el atributo privado `_positions` en el que se almacenarán las tres posiciones definidas a través de los objetos vacíos `Position1`, `Position2` y `Position3` (que heredan de un objeto vacío padre). El método Update detecta si ha sido presionada la tecla espacio, en cuyo caso se cambia la posición del objeto a la siguiente posición en el vector `_positions` y se actualiza el atributo privado `_currentPosition`.
+
+https://github.com/user-attachments/assets/62dffb29-0850-47d7-9f7f-3264b9e09d45
+
+7. 
