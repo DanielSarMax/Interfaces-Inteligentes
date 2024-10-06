@@ -26,4 +26,8 @@ El proyecto consiste en realizar una serie de ejercicios con la finalidad de fam
 
 https://github.com/user-attachments/assets/47b844ea-0cab-465b-8790-70c40f40ba34
 
-4. 
+4. Script `ShowPosition`. Se ha añadido como componente el script al objeto Esfera. Se ha asignado el tag `PositionText` al `TMP_Text` del Canvas para obtener su referencia en el código y asignar la posición de la esfera a la propiedad `text` del mismo.
+
+https://github.com/user-attachments/assets/3dba7711-a18f-4fec-bcf6-4721bba4cbb1
+
+5. 
