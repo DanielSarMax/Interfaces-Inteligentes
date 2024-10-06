@@ -1,6 +1,6 @@
 # Proyecto de Escena 3D en Unity
 
-![Gif1](p01_introducción_unity/sample.gif)
+![Gif1](sample.gif)
 
 ## Descripción del trabajo realizado
 
