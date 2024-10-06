@@ -38,4 +38,9 @@ https://github.com/user-attachments/assets/de86f392-0dbb-4ad8-af94-6bd14fa4deec
 
 https://github.com/user-attachments/assets/62dffb29-0850-47d7-9f7f-3264b9e09d45
 
-7. 
+7. Script `ColorChangerKey`. Definimos un atributo público de tipo `KeyCode` de modo que somos capaces de definir la tecla a presionar para cambiar el color desde el inspector. El script obtiene el componente `Renderer` del objeto y a través del método `Update()` detectamos si ha sido presionada la tecla en cuestión, en tal caso, se llama al método `ChangeColor()`, en el cual accedemos a la propiedad `material.color` y definimos su nuevo valor.
+
+https://github.com/user-attachments/assets/50ba73f8-7601-46c1-97cc-e8be38b8a64f
+
+8. 
+
