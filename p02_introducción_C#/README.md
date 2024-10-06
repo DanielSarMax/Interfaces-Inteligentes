@@ -22,4 +22,8 @@ El proyecto consiste en realizar una serie de ejercicios con la finalidad de fam
   <img src="samples/P02-EJ02-consola.png"/>
 </p>
 
-3. 
+3. Script `VectorInfo`. En el script se declaran dos variables públicas de tipo Vector3 que pueden ser accedidas desde el inspector. Asimismo, se han creado los métodos `ShowMagnitude`, `ShowAngle`, `ShowDistance` y `TallestVector`, los cuales proporcionan la información necesaria en la ejecución por consola.
+
+https://github.com/user-attachments/assets/47b844ea-0cab-465b-8790-70c40f40ba34
+
+4. 
