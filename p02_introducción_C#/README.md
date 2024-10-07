@@ -42,6 +42,6 @@ https://github.com/user-attachments/assets/62dffb29-0850-47d7-9f7f-3264b9e09d45
 
 https://github.com/user-attachments/assets/50ba73f8-7601-46c1-97cc-e8be38b8a64f
 
-8. Script `SphereGroupManipulation`. En el método `Start()` se inicializan los atributos privados `_cube`, `_type1Spheres` y `_type2Spheres` usando el método `GameObject.FindGameObjectsWithTag` (se han creado los tags `EsferaTipo1` y `EsferaTipo2`). El método `Update()` se encarga de asegurar que se ejecuten las funciones `IncrementHeigth()` y `ChangeColor()` al presionar la tecla espacio. Finalmente, en dichas funciones se hacen los cálculos para obtener la esfera más cercana o lejana según corresponda usando el método `Vector3.Distance` y se procede a manipular y modificar las propiedades que correspondan (color o altura).
+8. Script `SphereGroupManipulation`. En el método `Start()` se inicializan los atributos privados `_cube`, `_type1Spheres` y `_type2Spheres` usando el método `GameObject.FindGameObjectsWithTag` (se han creado los tags `EsferaTipo1` y `EsferaTipo2`). El método `Update()` se encarga de asegurar que se ejecuten las funciones `IncrementHeigth()` y `ChangeColor()` al presionar la tecla espacio. En dichas funciones se hacen los cálculos para obtener la esfera más cercana o lejana según corresponda usando el método `Vector3.Distance`. Finalmente, se procede a manipular y modificar las propiedades que correspondan (color o altura).
 
 https://github.com/user-attachments/assets/f5746634-9632-4844-91b5-19484fa7a5bc
