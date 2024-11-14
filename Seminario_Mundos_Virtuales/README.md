@@ -9,7 +9,7 @@
 
 ## Trabajo realizado
 
-### Qué funciones se pueden usar en los scripts de Unity para llevar a cabo traslaciones, rotaciones y escalados. ✔
+### Qué funciones se pueden usar en los scripts de Unity para llevar a cabo traslaciones, rotaciones y escalados.
 
 En Unity, las transformaciones de traslación, rotación y escalado se pueden manejar utilizando las propiedades y métodos del componente Transform asociado a cada objeto en la escena.
 
@@ -26,7 +26,7 @@ En Unity, las transformaciones de traslación, rotación y escalado se pueden ma
 3. Escalar:
     - transform.localScale = new Vector3(ancho, alto, profundidad);
 
-### Como trasladarías la cámara 2 metros en cada uno de los ejes y luego la rotas 30º alrededor del eje Y?. Rota la cámara alrededor del eje Y 30ª y desplázala 2 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado en ambos casos?. Justifica el resultado. ✔
+### Como trasladarías la cámara 2 metros en cada uno de los ejes y luego la rotas 30º alrededor del eje Y?. Rota la cámara alrededor del eje Y 30ª y desplázala 2 metros en cada uno de los ejes. ¿Obtendrías el mismo resultado en ambos casos?. Justifica el resultado.
 
 1. Caso 1:
 
@@ -59,17 +59,17 @@ No, no se obtiene el mismo resultado en ambos casos. Esto se debe a que, las tra
   <img src="images/2.png" />
 </p>
 
-### Como puedes aumentar el ángulo de la cámara. Qué efecto tiene disminuir el ángulo de la cámara. ✔
+### Como puedes aumentar el ángulo de la cámara. Qué efecto tiene disminuir el ángulo de la cámara.
 
 El ángulo de visión de la cámara se controla mediante el campo de visión o Field of View (FOV), que se encuentra en el componente Camera.
 
 Cuando reduces el ángulo de la cámara (fieldOfView), el efecto que consigues es un "zoom in" o una visión más cercana y enfocada del área frente a la cámara, por lo que, si disminuimos el ángulo de la cámara esta abarcará menos espacio en el mundo 3D, lo que significa que se verá menos en el entorno en pantalla. Esto puede ser útil para enfocar al jugador en detalles específicos o en un área en particular.
 
-### Es correcta la siguiente afirmación: Para realizar la proyección al espacio 2D, en el inspector de la cámara, cambiaremos el valor de projection, asignándole el valor de orthographic. ✔
+### Es correcta la siguiente afirmación: Para realizar la proyección al espacio 2D, en el inspector de la cámara, cambiaremos el valor de projection, asignándole el valor de orthographic.
 
 Sí, es correcta. Para realizar una proyección ortográfica (que convierte el espacio 3D en 2D), puedes cambiar el modo de proyección de la cámara en Unity a Ortográfica en el Inspector de la cámara. Esto se hace ajustando la propiedad Projection y seleccionando Orthographic. Cuando se asigna este valor, la cámara renderiza la escena en modo ortográfico, en lugar de la proyección perspectiva que es la predeterminada.
 
-### Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion. ✔
+### Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion.
 
 Un ejemplo de cómo realizar la rotación anterior utilizando la utilizadad quaternion sería la siguiente.
 
@@ -79,7 +79,7 @@ Quaternion rotacionObjetivo = Quaternion.LookRotation(direccionObjetivo);
 transform.rotation = Quaternion.Slerp(transform.rotation, rotacionObjetivo, 0.1f);
 ```
 
-### ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?. ✔
+### ¿Como puedes averiguar la matriz de proyección en perspectiva que se ha usado para proyectar la escena al último frame renderizado?.
 
 Unity te permite acceder a la matriz de proyección de la cámara directamente a través de la propiedad projectionMatrix de la clase Camera. Esta propiedad devuelve la matriz de proyección actual de la cámara en uso.
 
