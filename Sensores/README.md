@@ -12,3 +12,7 @@
 
 ## Ejercicio 2
 
+
+
+https://github.com/user-attachments/assets/fa6ecb38-8098-4be1-95a1-d17252772cc8
+
